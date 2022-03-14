@@ -1,0 +1,17 @@
+.searchInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-field {
+  padding: 10px 35px 10px 15px;
+
+  border-radius: 100px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+
+  margin-left: -33px;
+}
