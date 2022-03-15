@@ -1,9 +1,39 @@
 .App {
   text-align: center;
+  color: white;
+  font-weight: bold;
 }
+.box {
+  padding-top: 20vh;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url("/public/img/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: left top;
+}
+.tem {
+  font-size: 40px;
+}
+.weatherIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.search {
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
